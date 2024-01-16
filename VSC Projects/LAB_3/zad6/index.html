@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <section id="section">
+        <div id="contact1" class="contact">
+            <div class="container">
+                <p class="name">Grzegorz Rogus</p>
+                <p class="number">500 600 700</p>
+            </div>
+            <button class="delete">
+                <img src="bin.png">
+            </button>
+        </div>
+
+        <div id="contact2" class="contact">
+            <div class="container">
+                <p class="name">Andrzej Dajda</p>
+                <p class="number">500 600 700</p>
+            </div>
+            <button class="delete">
+                <img src="bin.png">
+            </button>
+        </div>
+    </section>
+
+    <div id="formContainer">
+        <form class="forms">
+            <div class="container">
+                <label for="fname" class="fnameLabel">Imię i nazwisko</label>
+                <input type="text" id="fname" name="fname" pattern="^\p{Lu}\p{Ll}*(-\p{Lu})?\p{Ll}\s\p{Lu}\p{Ll}*(-\p{Lu})?\p{Ll}([-]\p{Lu}\p{Ll}*(-\p{Lu})?\p{Ll})?">
+            </div>
+
+            <div class="container">
+            <label for="number" class="numberLabel">Telefon</label>
+            <input type="text" id="number" name="number" pattern="([ ]+)?([+][0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?)?([0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?[0-9]{1}([ ]+)?">
+            </div>
+        </form>
+    
+        <button id="add">Dodaj element</button>
+    </div>
+</body>
+</html>

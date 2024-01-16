@@ -1,0 +1,102 @@
+#first{
+    color: aqua;
+    border-style:double;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+#second{
+    margin-top: 40px;
+    border-style: dashed;
+    padding: 30px;
+}
+
+#third{
+    font-size: 50px;
+    border-style: dotted;
+
+}
+
+#fourth{
+    border-style: dotted;
+
+}
+
+table, th, td{
+    margin-top: 40px;
+    border: 1px solid white;
+    width: 600px;
+    height: 30px;
+}
+
+.jeden{
+    background-color: blue;
+    border: 2px solid white
+}
+
+.dwa{
+    background-color: grey;
+    border: 2px solid white
+}
+
+.trzy{
+    background-color: rgb(213, 212, 212);
+    border: 2px solid white;
+}
+
+.cztery{
+    background-color: brown;
+    border: 1px solid black
+}
+
+.piec{
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+#tekst{
+    border: 1px solid black;
+    height: 160px;
+    display: flex;  
+    flex-wrap: wrap;
+    
+    
+ }
+
+
+#pic_1{
+    float: left;
+    margin-right: 5px;
+}
+
+#pic_2{
+     float: right;
+     margin-bottom: 100px
+    
+}
+
+#Murray{
+     margin-right: 20px;
+}
+
+#Zverev{
+    position: absolute;
+    left: 110px;
+}
+
+#Rublev{
+    margin-right: 20px;
+    position: absolute;
+    left: 210px;
+}
+
+#europa{
+    background-color: blue;
+    position: absolute;
+    top: 1150px;
+}
+
+#azja{
+    background-color: red;
+    position: absolute;
+}

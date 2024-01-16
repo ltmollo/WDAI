@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+#background{
+    width: 100vw;
+	height: 60vh;
+    background-color: rgb(5, 122, 236);
+    clip-path: polygon(0 0, 100% 0 , 100% 80%, 0 100%);
+}
+
+#text{
+  width: 300px;
+  padding:10px;
+  position: absolute;
+  top:0;
+  animation-name: fromLeft;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+  from {left: -500px;}
+  to {left: 100px;}
+}
+
+button{ 
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    background-color: rgb(5, 122, 236);
+}
+
+button:hover{
+    background-color: rgb(225, 225, 225, 0.5);
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 90%;
+}
+
+form{
+    margin-top: 40px;
+    width: 260px;
+    height: 260px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:0;
+    animation-name: fromRight;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+    from {right: -500px;}
+    to {right: 100px;}
+}
+
+
+#formTitle{
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(117, 138, 190, 0.7);
+}
+
+#send{
+    border-radius: 3px;
+    width: 60px;
+    background-color: rgb(5, 122, 236);
+    margin-top: 20px;
+}
+
+#send:hover{
+    background-color: rgb(5, 122, 236, 0.5);
+    transition: 1s;
+}
+
+@media only screen and (max-width: 780px) {
+    #text{
+        width: 100vw;
+        left: 0;
+        animation-name: fromUp;
+      }
+
+    @keyframes fromUp {
+        from {top: -300px;}
+        to {top: 1vh;}
+    }
+  
+    form{
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        animation-name: fromDown;
+    }
+
+    @keyframes fromDown {
+        from {top: 120vh;}
+        to {top: 50vh;}
+    }  
+    @media only screen and (max-width: 780px) and (max-height: 400px){
+        body{
+            background-color: rgb(5, 122, 236);;
+        }
+        #text{
+            position: static;
+            top: 0;
+        }
+
+        form{
+            position: static;
+        }
+    }
+}
+

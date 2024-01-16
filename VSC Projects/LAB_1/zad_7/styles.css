@@ -1,0 +1,106 @@
+#top{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#circle_1{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(187, 44, 46);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#circle_2{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(224, 193, 9);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#circle_3{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(144, 199, 128);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#gallery{
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.picture{
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.description{
+    margin-left: 1px;
+    margin-top: 25px;
+    width: 248px;
+    height: 48px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.description1{
+    width: 40%;
+    height: 20%;
+    background-color: blue;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.description2{
+    width: 50%;
+    height: 15%;
+    background-color: rgb(94, 94, 94);
+    box-sizing: border-box;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.description3{
+    width: 30%;
+    height: 15%;
+    background-color: rgb(94, 94, 94);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+}

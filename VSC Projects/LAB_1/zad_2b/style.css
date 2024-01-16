@@ -1,0 +1,58 @@
+#back{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#back > div {
+  background-color: rgb(255, 165, 0, 0.5);
+  border-radius: 5px;
+  border: 2px solid rgb(255, 149, 0);
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 30px;
+  font-size: small;
+  color: red;
+}
+
+#jeden{
+    
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#dwa{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+    
+
+#trzy{
+    grid-row-start: 2;
+    grid-row-end: 5;
+   
+}
+
+#cztery{
+    grid-column-start: 3 ;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+#piec{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#szesc{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

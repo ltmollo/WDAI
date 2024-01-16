@@ -1,0 +1,97 @@
+#first{
+    width: 700px;
+    height: 500px;
+    background-color: grey;
+    padding: 50px;
+}
+
+#top{
+    width: 698px;
+    height: 100px;
+    background-color: rgb(98, 98, 98);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 165px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+#second{
+    width: 700px;
+    height: 40px;
+    display: grid;
+    display: inline-flex;
+    
+}
+
+#jeden{
+    width: 175px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(tlo_1.png);
+    
+}
+
+#dwa{
+    width: 175px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#trzy{
+    width: 175px;;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(tlo_2.jpg);
+}
+
+#tekst{
+    margin-top: 10px;
+}
+
+#third{
+    width: 700px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#small{
+    width: 173px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#big{
+    width: 523px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#stopka{
+    width: 698px;
+    height: 50px;
+    background-color: rgb(78, 76, 76);
+    border: 1px solid black;
+    text-align: center;
+}

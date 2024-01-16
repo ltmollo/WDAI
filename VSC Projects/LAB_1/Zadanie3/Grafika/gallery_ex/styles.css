@@ -1,0 +1,47 @@
+h1{
+    color: rgb(20, 85, 109);
+    border-top: 1px dashed grey;
+    border-bottom: 1px dashed grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+#board{
+    border-left: 1px dashed grey;
+    margin-left: 9%;
+    width: 580px;
+}
+
+.intro{
+    text-align: left;
+}
+
+.photo{
+    width: 210px;
+    height: 210px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 3px rgb(178, 179, 178);
+}
+img{
+    border-color: grey;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+#gallery{
+    margin-left: 10%;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.figure{
+    width: 220px;
+}
+
+p {
+    font-size: small;
+    text-align: center;
+    font-weight: 545;
+}

@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+#background{
+    width: 0;
+	height: 0;
+	border-top: 300px solid rgb(5, 122, 236);
+	border-left: 100vw solid rgb(5, 122, 236);
+	border-bottom: 100px solid transparent;
+}
+
+#text{
+  width: 300px;
+  position: absolute;
+  top:0;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {left: -500px;}
+  to {left: 100px;}
+}
+
+button{ 
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    background-color: rgb(5, 122, 236);
+}
+
+button:hover{
+    background-color: rgb(225, 225, 225, 0.5);
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 90%;
+}
+
+form{
+    margin-top: 40px;
+    width: 260px;
+    height: 260px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:0;
+    animation-name: exampleForm;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes exampleForm {
+    from {right: -500px;}
+    to {right: 100px;}
+}
+
+#formTitle{
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(117, 138, 190, 0.7);
+}
+
+#send{
+    border-radius: 3px;
+    width: 60px;
+    background-color: rgb(5, 122, 236);
+    margin-top: 20px;
+}
+
+#send:hover{
+    background-color: rgb(5, 122, 236, 0.5);
+    transition: 1s;
+}

@@ -1,0 +1,25 @@
+{
+    "pracownicy":[
+        {
+            "name": "Roger Federer",
+            "position": "Product Developer",
+            "img": "roger.png",
+            "description": "Roger Federer born 8 August 1981 is a Swiss former professional tennis player. He was ranked world No. 1 by the Association of Tennis Professionals for 310 weeks, including a record 237 consecutive weeks, and finished as the year-end No. 1 five times. He won 103 ATP singles titles, the second most of all time, including 20 Grand Slam singles titles, a record eight men's singles Wimbledon titles."
+
+        },
+        {
+            "name": "Rafael Nadal",
+            "position": "Manager",
+            "img": "Rafael_Nadal.png",
+            "description": "Rafael Nadal Parera born 3 June 1986 is a Spanish professional tennis player. He is currently ranked world No. 2 in singles by the Association of Tennis Professionals. He has been ranked world No. 1 for 209 weeks, and has finished as the year-end No. 1 five times. Nadal has won an all-time record 22 Grand Slam men's singles titles, including a record 14 French Open titles."
+        },
+        {
+            "name": "Novak Djokovic",
+            "position": "Chairman of the company",
+            "img": "Novak_Djokovic.png",
+            "description": "Novak Djokovic born 22 May 1987 is a Serbian professional tennis player. He is currently ranked world No. 8 in singles by the Association of Tennis Professionals. He has been ranked world No. 1 for a record total 373 weeks and has finished as the year-end No. 1 a record seven times. He has won 21 Grand Slam men's singles titles, including a record nine Australian Open titles."
+
+        }
+
+    ]
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+}
+
+label{
+    font-size: large;
+}
+
+#pwd, #repeated{
+    width: 300px;
+    height: 30px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+div{
+    align-items: center;
+    display: flex;
+}
+
+#showPass, #showRep{
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+}
+
+#show1, #show2{
+    position: relative;
+    z-index: 1;
+    margin-left: -30px;
+    width: 25px;
+    height: 25px;
+    background: url('eye.png');
+}

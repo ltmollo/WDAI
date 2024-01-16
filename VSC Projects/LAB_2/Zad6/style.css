@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;  
+  background: white;
+  font-family: "Arial", sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    border: 1px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    box-sizing: border-box;
+    width: 70%;
+    height: 70px;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    height: 70px;
+    background: purple;
+    list-style-type: none; 
+    transition-duration: 0.5s;
+}
+
+figure{
+    width: 100px;
+    margin: 0 10%;
+}
+
+li{
+    float: left;
+    width: 20%;
+    height: 70px;
+    padding-top: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    filter: brightness(0) invert(1);
+}
+
+a{
+  text-decoration: none;
+  color: black;  
+  transition-delay: 0.4s;
+}
+
+a:hover{
+  color: tomato;
+}
+
+li:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+}
+  
+li:not(:hover){
+    transition-duration: 0.5s;
+}
+
+input{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 920px){
+  
+  #container{
+    width: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input{
+    width: 40px;
+    height: 34px;
+    position: absolute;
+    top: -7px;
+    left: -8px;  
+    cursor: pointer;  
+    z-index: 2;   
+  }
+  
+  .bar1, .bar2, .bar3 {
+    border: 1px solid black;
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 3px;  
+    transform-origin: 4px 0px; 
+    transition: 0.4s;
+  }
+  
+  #menu{
+    position: absolute;
+    height: auto;
+    margin: 0 50px;
+    width: 200px; 
+    background-color: white;
+    transform: translate(-100%, 0);  
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  li{
+    width: 100%;
+    font-size: 22px;
+    float:none;
+    color: purple;
+  }
+
+  li:hover{
+    padding-right: 60px;
+  }
+  
+  #menuToggle input:not(:checked) ~ ul{
+    transform: none;
+  }
+
+   #menuToggle input:checked ~.bar1 {
+    transform: translate(-5px, 18px) rotate(-45deg);
+  }
+  
+  #menuToggle input:checked ~ .bar2 {opacity: 0;}
+  
+  #menuToggle input:checked ~ .bar3 {
+    transform: translate(0, -22px) rotate(45deg);
+  }
+}

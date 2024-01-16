@@ -1,0 +1,113 @@
+#first{
+    width: 80%;
+    height: auto;
+    background-color: grey;
+    padding: 5px;
+}
+
+#top{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(98, 98, 98);
+    border: 1px solid black;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 165px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+#second{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+#tekst{
+    margin-top: 10px;
+}
+
+#third{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#left{
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#mid{
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#right{
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#stopka{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(78, 76, 76);
+    border: 1px solid black;
+    text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #third{
+        
+        flex-wrap: wrap;
+    }
+    
+    #left{
+        width: 49%;
+    }
+
+    #mid{
+        width: 49%;
+    }
+
+    #right{
+        width: 98.2%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    #third{
+        
+        flex-wrap: wrap;
+    }
+    
+    #left{
+        width: 100%;
+    }
+
+    #mid{
+        width: 100%;
+    }
+
+    #right{
+        width: 100%;
+    }
+    
+}

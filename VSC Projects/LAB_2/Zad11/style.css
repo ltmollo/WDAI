@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 234, 81);
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+     display: block;
+ }
+ 
+ #background{
+     width: 300px;
+     display: block;
+     border-radius: 10px;
+     list-style: none;
+     background-color: pink;
+
+ }
+ 
+ .toRoll{
+     overflow: hidden;
+ }
+ 
+
+.toRoll:target .rollMenu{
+     max-height: 400px;
+ }
+
+ .toRoll:not(:target) .rollMenu{
+    max-height: 0;
+}
+
+ .toRoll:target > .menu{
+    background-color: brown;
+}
+ 
+ .rollMenu{
+     background: rgb(25, 115, 165);
+     max-height:0;
+     transition: 1s ease all;
+ }
+ 
+ .rollMenu a{
+     padding: 20px 50px;
+     font-size: 16px;
+     border-bottom: 1px solid black;
+     position: relative;
+ }
+ 
+ .rollMenu a:hover:before{
+     content: '';
+     position: absolute;
+     width: 270px;
+     left: 0;
+     top:0;
+     border-top: 30px solid transparent;
+     border-left: 15px solid rgb(237, 234, 81);
+     border-bottom: 30px solid transparent;
+     border-right: 15px solid rgb(237, 234, 81);
+ }
+ 
+ .menu{
+     display: block;
+     padding: 20px 15px;
+     color: white;
+     position: relative;
+ }

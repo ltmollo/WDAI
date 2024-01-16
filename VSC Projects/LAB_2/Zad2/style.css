@@ -1,0 +1,26 @@
+.box{
+    width: 600px;
+    height: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box > div{
+    text-align: center;
+    width: 70px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.box div:first-child{
+    align-self: stretch;
+}
+
+
+.selected{
+    align-self: center;
+}

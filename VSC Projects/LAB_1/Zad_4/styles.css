@@ -1,0 +1,31 @@
+.czerw{
+    background-color: rgb(254, 0, 0);
+    width: 100px;
+    height: 60px;
+}
+
+.nieb{
+    background-color: rgb(172, 216, 229);
+    width: 300px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.zolty{
+    background-color: rgb(255, 255, 0);
+    width: 420px;
+    height: 60px;
+}
+
+div{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#container{
+    width: 428px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style:hidden;
+}

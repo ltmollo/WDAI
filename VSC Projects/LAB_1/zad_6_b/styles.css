@@ -1,0 +1,122 @@
+.back{
+    display: flex;
+    flex-wrap: nowrap;   
+    flex-direction: column;
+}
+
+.back > div{
+    background-color: hsl(0, 0%, 91%);
+    width: 200px;
+    height: 25px;
+    border: 1px dashed ;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#STRONA{
+    width: 25px;
+    height: 22px;
+    background-image: url("link.png");
+    margin-right: 10px;
+}
+
+#strona:hover #STRONA{
+    background-image: url("go.png");
+}
+
+#strona:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+#OFERTA{
+    width: 25px;
+    height: 22px;
+    background-image: url("link.png");
+    margin-right: 10px;
+}
+
+#oferta:hover #OFERTA{
+    background-image: url("go.png");
+}
+
+#oferta:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+#EKSPERCI{
+    width: 25px;
+    height: 22px;
+    background-image: url("link.png");
+    margin-right: 10px;
+}
+
+#eksperci:hover #EKSPERCI{
+    background-image: url("go.png");
+}
+
+#EKSPERCI:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+#quiz{
+    display: flex;
+    justify-content: space-between;
+}
+
+#QUIZ{
+    width: 25px;
+    height: 20px;
+    background-image: url("bg_here.png");
+    margin-right: 5px;
+}
+
+#quiz:hover #QUIZ{
+    background-image: url("go.png");
+}
+
+#quiz:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+#PROJEKTY{
+    width: 25px;
+    height: 20px;
+    background-image: url("link.png");
+    margin-right: 10px;
+}
+
+#projekty:hover #PROJEKTY{
+    background-image: url("go.png");
+}
+
+#projekty:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+#HOROSKOP{
+    width: 25px;
+    height: 20px;
+    background-image: url("link.png");
+    margin-right: 10px;
+}
+
+#horoskop:hover #HOROSKOP{
+    background-image: url("go.png");
+}
+
+#horoskop:hover{
+    background-color: rgb(178, 245, 16);
+}
+
+p{
+    margin-top: 3px;
+    margin-left: 35px;
+}
+
+#quiz{
+    font-weight: bold;
+    background-color: white;
+}
+

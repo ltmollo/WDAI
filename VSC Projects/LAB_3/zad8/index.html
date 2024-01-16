@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="pwd">New password:</label><br><br>
+        <div>
+            <input type="password" id="pwd" name="pwd">
+            <div id="show1">
+                <input id="showPass" type="checkbox">
+             </div>
+        </div><br><br>
+
+        <label for="pwd">Repeat password:</label><br><br>
+        <div>
+            <input type="password" id="repeated" name="pwd"><br>
+            <div id="show2">
+                <input id="showRep" type="checkbox">
+            </div>
+        </div>
+    </form>
+
+    <section>
+        <h1>Password requirements</h1>
+        <div>
+            <img id="img1" src="unclicked.png">
+            <p>at least 8 charachters</p>
+        </div>
+        <div>
+            <img id="img2" src="unclicked.png">
+            <p>at least one special character</p>
+        </div>
+        <div>
+            <img id="img3" src="unclicked.png">
+            <p>at least one capital letter</p>
+        </div>
+        <div>
+            <img id="img4" src="unclicked.png">
+            <p>at least one digit</p>
+        </div>
+    </section>
+
+    <button id="confirm">Confirm</button>
+</body>
+</html>
